@@ -128,3 +128,10 @@ img {
     font-style: italic;
     text-align:center;
   }
+
+@media (max-width: 768px) { 
+    #tribute-info, 
+    .quote-container{
+      padding: 20px; /* Add consistent padding to elements */
+      border:none;
+    }}
